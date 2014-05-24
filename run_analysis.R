@@ -42,7 +42,7 @@ colnames(n) <- c("subject", "activity",c(o[c(1:561),1]))
 t <- grep ("std",names(n),value = TRUE)
 t2 <- grep ("mean\\(\\)",names(n),value = TRUE)
 n2 <- n[c("subject","activity",t2,t)]
-write.table(n2,file ="Run_Analysis_Tidy_Data_set.csv",sep=",",row.names = FALSE)
+write.table(n2,file ="Run_Analysis_Tidy_Data_set.txt",sep=",",row.names = FALSE)
 unlink(temporal)
 
 
