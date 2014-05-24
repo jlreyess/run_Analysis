@@ -83,3 +83,4 @@ The variables contained are:
 "530 fBodyBodyGyroMag-std()"    
 "543 fBodyBodyGyroJerkMag-std()"
 
+The number before the name of the variable, represents the position in the original data set.
